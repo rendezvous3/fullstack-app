@@ -27,6 +27,8 @@ app.get('/auth/google', passport.authenticate('google', {
 
 }));
 
+// Error visit https://console.developers.google.com/apis/credentials/oauthclient/362007267422-i4fll8npkt5pntuhad8i1kngtdkoelef.apps.googleusercontent.com?project=362007267422
+// -> Authorized redirect API's -> http://localhost:5000/auth/google/callback
 
 const PORT = process.env.PORT || 5000;
 
