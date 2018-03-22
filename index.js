@@ -11,7 +11,7 @@ const app = express();
 // -> web application -> Authorized JS origins -> http://localhost:5000
 // -> Authorized redirect API's -> http://localhost:5000/* -> Create
 // -> Client id -> 362007267422-i4fll8npkt5pntuhad8i1kngtdkoelef.apps.googleusercontent.com
-// -> Client Secret -> -gs7GxTM727bGTDvYOzlF-rD
+// -> Client Secret -> ???
 passport.use(new GoogleStrategy());
 
 
